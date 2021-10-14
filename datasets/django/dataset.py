@@ -301,7 +301,6 @@ class Django(object):
         test_examples = []
 
         action_len = []
-        exit(0)
         for idx, e in enumerate(loaded_examples):
             src_query_tokens = e['src_query_tokens'][:max_query_len]
             tgt_actions = e['tgt_actions']
